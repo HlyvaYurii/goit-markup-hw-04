@@ -150,6 +150,16 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 1440px;
 }
 .main-title {
   font-weight: 700;
@@ -177,6 +187,9 @@ img {
   padding: 16px 32px;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition-property: color, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms ease backgroun-color 250ms;
 }
 .main-btn:hover,
 .main-btn:focus {
