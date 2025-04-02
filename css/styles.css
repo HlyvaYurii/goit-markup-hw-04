@@ -196,6 +196,11 @@ img {
 .section {
   padding-top: 120px;
 }
+.social-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .list {
   display: flex;
   gap: 24px;
