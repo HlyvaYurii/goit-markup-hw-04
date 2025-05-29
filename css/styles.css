@@ -424,8 +424,7 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.logo-text-container,
-.social-media-container {
+.container-footer {
   display: flex;
   align-items: baseline;
 }
