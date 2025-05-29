@@ -424,6 +424,14 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
+.logo-text-container,
+.social-media-container {
+  display: flex;
+  align-items: baseline;
+}
+.logo-text-container {
+  margin-right: 120px;
+}
 /* Контейнер що містить заголовок і іконки соцмереж */
 .social-media-container {
   margin-top: 40px; /* Відступ від основного тексту футера */
@@ -435,7 +443,7 @@ img {
   font-size: 16px; /* Стандартний розмір */
   line-height: 1.5; /* Висота рядка */
   letter-spacing: 0.02em; /* Інтервал між літерами */
-  color: #f4f4fd; /* Світлий колір тексту */
+  color: #ffffff; /* Світлий колір тексту */
   margin-bottom: 16px; /* Відступ перед іконками */
 }
 
