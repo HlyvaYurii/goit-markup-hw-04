@@ -193,8 +193,8 @@ img {
 .main-btn:focus {
   background: #404bbf;
 }
-.section {
-  padding-top: 120px;
+.one-section {
+  margin: 0 auto;
 }
 .social-team {
   display: flex;
@@ -239,10 +239,6 @@ img {
   background-color: #f4f4fd;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .section-team {
   background: #f4f4fd;
 }
@@ -290,6 +286,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 8px;
 }
 .social-item {
   width: 40px;
@@ -432,9 +429,6 @@ img {
   margin-right: 120px;
 }
 /* Контейнер що містить заголовок і іконки соцмереж */
-.social-media-container {
-  margin-top: 40px; /* Відступ від основного тексту футера */
-}
 
 /* Заголовок "Social media" */
 .social-media-title {
